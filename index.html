@@ -7,21 +7,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
-  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Cones & Cream</title>
 </head>
 
 <body>
   <header class="container-fluid sticky-top">
-    <div class="row bg-secondary text-info p-2">
+    <div class="row bg-info text-secondary p-2">
       <h3>Cones & Cream</h3>
     </div>
 
   </header>
-  <main class="container-fluid">
-    <div class="row bg-light"></div>
 
+  <main class="container-fluid">
+    <div class="row bg-secondary">
+      <div class="col-12 col-md-6 p-5">
+        <div class="row">
+          <h2 class="text-center text-info fw-bold">CREATE YOUR DESSERT</h2>
+          <div class="col-12">
+            <h3 class="text-center text-info">
+              CHOOSE YOUR CONE!
+            </h3>
+          </div>
+        </div>
+        <div id="cone" class="row text-dark justify-content-center">
+          <!--inner HTML from js-->
+        </div>
+        <h3 class="text-center text-info">
+          ADD SOME SCOOPS!!
+        </h3>
+        <div id="scoop" class="row text-dark">
+          <!--inner HTML from js-->
+        </div>
+        <h3 class="text-center text-info">
+          NOW ADD TOPPINGS!!
+        </h3>
+        <div id="topping" class="row text-dark">
+          <!--inner HTML from js-->
+        </div>
+      </div>
+      <div class="col-12 col-md-6 p-5">
+        <div class="row bg-info text-secondary">
+          <div class="col-12">
+            <h5>Your Frozen Creations</h5>
+          </div>
+        </div>
+        <div id="cart" class="row text-light">
+          <!--BUILD CART TEMPLATE-->
+        </div>
   </main>
   <footer class="container-fluid">
     <div class="row bg-info text-center text-secondary p-1">
